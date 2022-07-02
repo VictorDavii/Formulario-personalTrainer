@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,700;1,600&family=Heebo:wght@200;400;600;700;800&display=swap');
+
+:root{
+    --cor1:#fffda6;
+    --cor2:#f37f4e;
+    --cor3:#28323c;
+    --cor4:#b4b2b7;
+
+    --fonteP:'Barlow', sans-serif;
+    --fonteS:'Heebo', sans-serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid var(--cor2);
+    background-color:var(--cor1);
+    color: var(--cor3);
+    text-align: center;
+}
+
+.card h1{
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-family: var(--fonteS);
+}
